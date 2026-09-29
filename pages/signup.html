@@ -22,5 +22,56 @@
         <button type="submit">Sign Me up!</button>
       </form>
       <a href="/index.html">Home Page</a>
+
+      <hr>
+     
+      <form action="POST">
+        <div> 
+            <h2>What Transportation do you use?</h2>
+            <input type="radio" name="transportation" id="bus" value="transportation">
+            <label for="bus">Bus</label>
+            <input type="radio" name="transportation" id="car" value="transportation">
+            <label for="car">Car</label>
+            <input type="radio" name="transportation" id="walk" value="transportation">
+            <label for="walk">Walk</label>
+        </div>
+        
+        
+        <div>
+            <h2>What Hobbies do you enjoy?</h2>
+            <input type="checkbox", name="hobbies" id="gaming" value="gaming">
+            <label for="gaming">Gaming</label>
+            <input type="checkbox", name="hobbies" id="coding" value="coding" checked>
+            <label for="coding">Coding</label>
+            <input type="checkbox", name="hobbies" id="sport" value="sport">
+            <label for="sport">Sports</label>
+            <input type="checkbox", name="hobbies" id="reading" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox", name="hobbies" id="music" value="music">
+            <label for="music">Music</label>
+        </div>
+        <h2>Additional Comments</h2>
+        <div>
+            <label for="message"></label>
+            <textarea name="message" value="message" id="message" rows="10" cols="20"></textarea>
+        </div>
+
+        <div>
+            <h2>What Grade are you?</h2>
+            <label for="grade">Choose a Grade</label>
+            <select name="grade" id="grade">
+                <option value="nograde">None</option>
+                <option value="9th">Freshman</option>
+                <option value="10th">Sophomore</option>
+                <option value="11th">Junior</option>
+                <option value="12th">Senior</option>
+                <option value="teach">Teacher</option>
+            </select>
+        </div>
+
+
+
+
+      </form>
    </body>
 </html>
