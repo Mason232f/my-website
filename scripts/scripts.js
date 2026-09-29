@@ -46,12 +46,12 @@ console.log(Number(userAge) * .12)
 // console.log(messageTwo)
 
 // Challenge day 2
-const amount = prompt("Total Cost? ")
-const tip = prompt("Tip Percentage? ")
-const tipcalc = tip/100
-const calculated = Number(amount)*(Number(tip)/100)
-const finalamount = amount+calculated
-console.log(Number(calculated)+ " tip +  " + amount + " = " + finalamount + " is your total cost")
+// const amount = prompt("Total Cost? ")
+// const tip = prompt("Tip Percentage? ")
+// const tipcalc = tip/100
+// const calculated = Number(amount)*(Number(tip)/100)
+// const finalamount = amount+calculated
+// console.log(Number(calculated)+ " tip +  " + amount + " = " + finalamount + " is your total cost")
 
 
 
