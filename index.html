@@ -121,6 +121,40 @@
                 <td>Mr. Knouse</td>
             </tr>
         </table>
+
+        <form action="POST">
+            <!-- Radio Buttons -->
+             <!-- use attribute "checked" to have the option checked by default -->
+            <p>Radio Buttons</p>
+            <input type="Radio" id="email" name="contact" value="email">
+            <label for="email">Email</label>
+            <input type="Radio" id="phone" name="contact" value="phone" checked>
+            <label for="email">Phone</label>
+
+
+            <!-- Checkboxes -->
+
+            <p>Select your skills</p>
+            <input type="checkbox" name="skills" id="html" value="html" checked>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="skills" id="css" value="css">
+            <label for="css">CSS</label>
+
+            <!-- Text Area -->
+            <div><label for="message"> Your Message:</label>
+             <textarea name="message" value="message" id="message"
+                            rows="10" cols="10"></textarea>
+            </div>
+             
+            <!-- Dropdown Menus -->
+             <label for="car">Choose a car</label>
+             <select name="car" id="car">
+                <option value="volvo">Volvo</option>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+            </select>
+        </form>
+
     </body>
     <footer>
         <p>By Mason Meas, Copyright 2026</p>
