@@ -1,4 +1,7 @@
 p{
     font-family: monospace;
-    font-size: large;
+    font-size: 20px;
+}
+body{
+    background-color: tan;
 }

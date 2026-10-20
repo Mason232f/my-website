@@ -1,0 +1,24 @@
+/* p {
+    background-color: rgb(94, 84, 10);
+    color: black;
+    font-family: cursive;
+} */
+
+a{
+    text-decoration: none;
+}
+
+p{
+    background-color: rgb(17, 120, 211);
+}
+.copyrighttext{
+    color: black;
+    background-color: white;
+    font-size: 12;
+}
+.main-text-first-p {
+    color: black;
+}
+#classroom-link {
+    color: black;
+}

@@ -1,0 +1,22 @@
+main{
+    font-family: 'Times New Roman';
+}
+h2{
+    font-size: 38px;
+}
+#news-top{
+color: rgb(179, 82, 13);
+}
+body{
+    background-color: tan;
+}
+.pheaders{
+    color: rgb(179, 82, 13);
+}
+.paragraph{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+div{
+    color: white;
+}
