@@ -1,15 +1,14 @@
-/* p {
-    background-color: rgb(94, 84, 10);
-    color: black;
-    font-family: cursive;
-} */
-
+/* Header Stylings */
+header{
+    border: 2px;
+}
 a{
     text-decoration: none;
 }
 
-p{
-    background-color: rgb(17, 120, 211);
+/* main Sylings  */
+body{
+    border: 2px solid black;
 }
 .copyrighttext{
     color: black;
@@ -17,6 +16,7 @@ p{
     font-size: 12;
 }
 .main-text-first-p {
+
     color: black;
 }
 #classroom-link {
