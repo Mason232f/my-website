@@ -1,6 +1,6 @@
 main{
     font-family: 'Times New Roman';
-    border: 2px black;
+    border: 2px solid black;
 }
 h2{
     font-size: 38px;
@@ -20,4 +20,7 @@ body{
 }
 div{
     color: white;
+}
+header{
+    border: 2px solid black;
 }
