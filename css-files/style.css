@@ -9,9 +9,9 @@ a{
 }
 
 /* main Sylings  */
-body{
+/* body{
     border: 2px solid black;
-}
+} */
 .copyrighttext{
     color: black;
     background-color: white;
@@ -46,14 +46,16 @@ body{
 .link1{
     border-radius: 50px; 
     border: 2px solid black;
-    padding-left: 10px;
     background-color: rgb(179, 29, 42);
     color: black;
+    padding-left: 10px;
+    margin: 4px;
 }
 .link2{
     border-radius: 50px; 
     border: 2px solid black;
     padding-left: 10px;
+    margin-bottom: 8px;
     background-color: rgb(70, 94, 247);
     color: black;
 }
@@ -63,6 +65,7 @@ body{
     padding-left: 10px;
     background-color: rgb(70, 94, 247);
     color: black;
+
 }
 .headers_img{
     border-radius: 125px;
