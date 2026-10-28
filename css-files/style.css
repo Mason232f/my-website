@@ -1,4 +1,7 @@
 /* Header Stylings */
+head{
+    border-radius: 50px
+}
 header{
     border: 2px solid black;
     background-color: #FFBF81;
