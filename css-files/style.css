@@ -20,6 +20,20 @@ a{
     background-color: white;
     font-size: 12;
 }
+.Hero-section{
+    height: 48vh;
+    padding-left: 3em;
+    background-image: url(../images/phs.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Hero-info{
+    color: black;
+    width: 40%;
+    padding: 1em, 7em;
+    border-radius: 10px;
+    background-color: rgba(219, 109, 69, 0.368);
+}
 .main-text-first-p {
 
     color: black;
