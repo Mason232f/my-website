@@ -1,0 +1,2 @@
+% -> percentage of size based off parent or dependent variable/code
+vw -> changes the size reletive to width of screen.
