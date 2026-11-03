@@ -5,8 +5,31 @@ p{
 body{
     background-color: tan;
 }
-section img{
+.image_link{
     background-color: darkslategray;
-    padding: 2em;
-    border-radius: 20px;
+    border-radius: 2em;
+    padding: 1em 0em 1em 1.75em;
+}
+.image{
+    width: 90%;
+    border-radius: 2em;
+}
+.image_link a{
+    background-color: darkolivegreen;
+    border-radius: 1em;
+    padding: .25em;
+    margin: 6em;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.hero-section{
+    height: 10em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpjCHkFvt__AuhfPzKw8eeMdmz4c068OQuDGwLA5qsQw&s=10);
+}
+.hero-info{
+    background-color: hsl(16, 100%, 66%, .385);
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
 }
