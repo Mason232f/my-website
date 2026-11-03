@@ -29,7 +29,7 @@ body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpjCHkFvt__AuhfPzKw8eeMdmz4c068OQuDGwLA5qsQw&s=10);
 }
 .hero-info{
-    background-color: hsl(16, 100%, 66%, .385);
+    background-color: hsl(16, 100%, 66%,.385);
     color:rgb(0, 0, 0);
     font-family: sans-serif;
 }
