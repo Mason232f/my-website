@@ -8,19 +8,29 @@ body{
 .image_link{
     background-color: darkslategray;
     border-radius: 2em;
-    padding: 1em 0em 1em 1.75em;
+    padding: 1em 0em 2em 1.75em;
 }
 .image{
+    position: 50%;
     width: 90%;
     border-radius: 2em;
+    padding-bottom: 1em;
 }
 .image_link a{
     background-color: darkolivegreen;
     border-radius: 1em;
     padding: .25em;
-    margin: 6em;
-    font-size: 1.6rem;
-    text-align: center;
+    font-size: 1.5rem;
+    position: 50%;
+    color: rgb(214, 199, 101);
+    text-decoration: none;
+    transition: all .75s ease;
+}
+.image_link a:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    transform: scale(2, 2);
 }
 .hero-section{
     height: 10em;
@@ -45,4 +55,15 @@ header a{
     padding: .25em;
     background-color: rgb(70, 247, 191);
     color: black;
+}
+.fa-heart{
+    font-size: 2em;
+    position: absolute;
+    right: 3%;
+    transition: all .75s ease;
+    cursor: pointer;
+}
+.fa-heart:hover{
+    transform: scale(1.5);
+    color: red;
 }

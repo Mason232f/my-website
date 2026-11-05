@@ -5,6 +5,7 @@ head{
 header{
     border: 2px solid black;
     background-color: #FFBF81;
+    padding: 1em
 }
 a{
     text-decoration: none;
@@ -60,32 +61,55 @@ a{
     padding: 10px;
     margin-top: 100px;
 }
-.link1{
+
+/* home page */
+
+.nav_link_dead{
     border-radius: 50px; 
     border: 2px solid black;
     background-color: rgb(179, 29, 42);
     color: black;
     padding-left: 10px;
     margin: 4px;
+    pointer-events: none;
 }
-.link2{
+.nav_link{
     border-radius: 50px; 
     border: 2px solid black;
     padding-left: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 2em;
     background-color: rgb(70, 94, 247);
     color: black;
+    transition: all 0.75s ease;
 }
-.link3{
-    border-radius: 50px; 
-    border: 2px solid black;
-    padding-left: 10px;
-    background-color: rgb(70, 94, 247);
-    color: black;
-
+.nav_link:hover{
+    transform: scale(2);
+    background-color: black;
+    color: white;
 }
 .headers_img{
     border-radius: 125px;
     width: 75px;
     padding: 8px 4px 4px 8px;
+}
+.fa-angles-up{
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    font-size: 2em;
+}
+.fa-angles-up:hover{
+    background-color: black;
+    color: white;
+}
+nav h1{
+    font-family: cursive;
+}
+main{
+    top: px;
+    border: 2px solid blue;
 }
