@@ -25,12 +25,15 @@ body{
     color: rgb(214, 199, 101);
     text-decoration: none;
     transition: all .75s ease;
+    display: flex;
+    justify-content: center;
+    max-width: 25%;;
 }
 .image_link a:hover{
     cursor: pointer;
     color:white;
     background-color: black;
-    transform: scale(2, 2);
+    transform: scale(1.25, 1.25);
 }
 .hero-section{
     height: 10em;
