@@ -155,15 +155,11 @@ justify-content: space-evenly;
 }
 .boxa{
     background-color: coral;
-    padding: 1em;
-    font-size: 26px;
-    margin: 2em 15em 2em 2em;
+    border: 2px;
 }
 .boxb{
     background-color: rgb(255, 240, 80);
-    padding: 1em;
-    font-size: 20px;
-    margin: 2em 20.75em 2em 2em;    
+    border: 2px;   
 }
 /* .box4-7{
 border: 2px solid black;
