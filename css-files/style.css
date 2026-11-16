@@ -31,13 +31,16 @@ a{
 .Hero-info{
     color: black;
     width: 40%;
-    padding: 1em, 7em;
+    padding: 0em, 7em;
     border-radius: 10px;
-    background-color: rgba(219, 109, 69, 0.368);
+    background-color: rgba(245, 129, 86, 0.5);
 }
 .main-text-first-p {
-
+    background-color: burlywood;
     color: black;
+}
+.main-text{
+    background-color: rgb(107, 56, 56);
 }
 #classroom-link {
     color: black;
@@ -83,7 +86,7 @@ a{
     transition: all 0.75s ease;
 }
 .nav_link:hover{
-    transform: scale(2);
+    transform: scale(2, 2);
     background-color: black;
     color: white;
 }
@@ -127,12 +130,29 @@ main{
     height: 100px;
     border: 2px solid black;
 }
-.box1{
+.classprojectsheader{
+    font-size: 32px;
+}
+.nav_linkp{
+    border-radius: 50px; 
+    border: 2px solid black;
+    padding-left: 10px;
+    margin: 6em 0em 2em 0em;
+    background-color: rgb(70, 94, 247);
+    color: black;
+    transition: all 0.75s ease;
+}
+.nav_linkp:hover{
+    transform: scale(2,2);
+    background-color: black;
+    color: white;
+}
+.box1-3{
+border: 2px solid black;
+}
+.box4-7{
 
 }
-.box2{
-
-}
-.box3{
+.box8-10{
     
 }
