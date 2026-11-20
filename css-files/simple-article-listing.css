@@ -78,3 +78,26 @@ nav h1{
     font-size: 1.25rem;
     pointer-events: none;
 }
+.outerlist {
+    border: 2px solid black;
+    min-height: 40em;
+    background-color: rgb(237, 163, 65);
+}
+.lists {
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    padding: 1em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: mandatory;
+    gap: 25px;
+}
+.img1 {
+    border: 2px solid black;
+}
+.mainhtext {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
