@@ -13,6 +13,10 @@ header{
     padding: .5em .5em 0em .5em;
     max-height: 7em;
 }
+header p {
+    line-height: 1.6;
+    text-transform: uppercase;
+}
 nav {
     max-height: 5em;
     display: flex;
@@ -25,6 +29,11 @@ a{
 }
 
 /* main Sylings  */
+p {
+    font-family: sans-serif;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
 /* body{
     border: 2px solid black;
 } */
@@ -42,7 +51,7 @@ a{
 }
 .Hero-info{
     color: black;
-    max-width: 40em;
+    max-width: 25em;
     padding: 0em, 7em;
     border-radius: 10px;
     background-color: rgba(245, 129, 86, 0.5);
