@@ -141,6 +141,7 @@ footer{
 nav h1{
     font-family: cursive;
     font-size: 1.25rem;
+    pointer-events: none;
 }
 main{
     top: px;

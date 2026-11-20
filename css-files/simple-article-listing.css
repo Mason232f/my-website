@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    padding: 0;
+}
+head {
+    border-radius: 100px
+}
+header{
+    border: 2px solid black;
+    background-color: #FFBF81;
+    padding: .5em .5em 0em .5em;
+    max-height: 7em;
+}
+nav {
+    max-height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: column;
+}
+a{
+    text-decoration: none;
+    padding-right: 10px
+}
+footer{
+    border: 2px solid black;
+    background-color: #FFBF81;
+    padding: .5em .5em 0em .5em;
+    max-height: 7em;
+}
+.copyrighttext{
+    background-color: #FFBF81;
+}
+.nav_link_dead{
+    border-radius: 1em; 
+    border: 2px solid black;
+    background-color: rgb(179, 29, 42);
+    color: black;
+    padding: .75em;
+    margin: 1em;
+    pointer-events: none;
+}
+.nav_link{
+    border-radius: 1em; 
+    border: 2px solid black;
+    padding: .75em;
+    margin: 1em;
+    background-color: rgb(70, 94, 247);
+    color: black;
+    transition: all 0.75s ease;
+}
+.nav_link:hover{
+    transform: scale(1.25, 1.25);
+    background-color: black;
+    color: white;
+}
+.headers_img{
+    border-radius: 125px;
+    width: 75px;
+    padding: 8px;
+}
+.fa-angles-up{
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    font-size: 2em;
+}
+.fa-angles-up:hover{
+    background-color: black;
+    color: white;
+}
+nav h1{
+    font-family: cursive;
+    font-size: 1.25rem;
+    pointer-events: none;
+}
